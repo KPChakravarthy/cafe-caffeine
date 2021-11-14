@@ -29,10 +29,24 @@
   text-align: center;
 }
 
+.cafe-caffeine-logo {
+  width: 100%;
+}
+
 .cafe-caffeine-coming-soon-text {
   font-family: 'Open Sans', sans, monospace;
-  font-size: 4em;
+  font-size: 4rem;
   color: #FFFFFF;
   letter-spacing: 3px;
   margin-top: 1em;
+}
+
+@media only screen and (max-width: 760px) {
+  .contents {
+    width: 80%;
+  }
+
+  .cafe-caffeine-coming-soon-text {
+    font-size: 2rem;
+  }
 }
