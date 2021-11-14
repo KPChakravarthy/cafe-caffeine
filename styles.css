@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.coming-soon-container {
+  background: url('./images/cs-bg.jpeg');
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.container-overlay {
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  text-align: center;
+}
+
+.cafe-caffeine-coming-soon-text {
+  font-family: 'Open Sans', sans, monospace;
+  font-size: 4em;
+  color: #FFFFFF;
+  letter-spacing: 3px;
+  margin-top: 1em;
+}
